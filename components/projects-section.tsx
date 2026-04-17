@@ -5,6 +5,23 @@ import { ExternalLink, Github } from "lucide-react"
 
 const PROJECTS = [
   {
+    title: "Neural Intelligence Fusion",
+    description: "A high-fidelity OSINT command center for real-time aggregation, geocoding, and visualization of global intelligence. Built with a 'Neural Architecture' aesthetic, it transforms raw signal data into actionable tactical insights.",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=80",
+    technologies: ["React", "Node.js", "MongoDB", "Leaflet", "Real-time AI"],
+    liveUrl: "https://intel-dashboard-client.vercel.app",
+    githubUrl: "https://github.com/adi-0903/intel-dashboard-client",
+    featured: true,
+  },
+  {
+    title: "Heritage Brews",
+    description: "A museum-grade e-commerce sanctuary celebrating the 130-year legacy of Indian Tea & Coffee. Blends cinematic storytelling with a robust Django backend and high-fidelity visual sovereignty.",
+    image: "https://images.unsplash.com/photo-1544787210-2213d84ad960?auto=format&fit=crop&w=1400&q=80",
+    technologies: ["React 19", "Vite", "Django", "PostgreSQL", "WhatsApp Integration"],
+    githubUrl: "https://github.com/adi-0903/Heritage-Brews",
+    featured: true,
+  },
+  {
     title: "ChatHive",
     description: "Secure, low-latency messaging platform with presence indicators, media sharing, and AI-powered smart replies for high-volume teams.",
     image: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1400&q=80",
@@ -69,7 +86,9 @@ const PROJECTS = [
     description: "Story-driven blogging platform with editorial workflows, AI drafting assistance, and a hardened Django API for publishing at scale.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80",
     technologies: ["React", "Django", "PostgreSQL", "Tailwind"],
-    githubUrl: "https://blogginwebsite-frontend.vercel.app",
+    liveUrl: "https://blogginwebsite-frontend.vercel.app",
+    githubUrl: "https://github.com/adi-0903/blogginwebsite-Frontend",
+
   },
   {
     title: "Live Puzzle Game",

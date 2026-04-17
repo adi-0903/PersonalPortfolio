@@ -71,7 +71,7 @@ export default function SkillsSection() {
   }
 
   return (
-    <section className="py-32 sm:py-48 relative overflow-hidden bg-[#030303]" id="skills">
+    <section className="py-32 sm:py-48 relative overflow-hidden bg-background" id="skills">
       {/* Advanced Ambient Background */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_20%,#3b076415,transparent_50%)]" />

@@ -65,7 +65,7 @@ export default function HeroSection() {
   return (
     <section
       ref={heroRef}
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-[#020202] py-20"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background py-20"
     >
       <AnimatedBackground />
 
