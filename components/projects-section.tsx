@@ -69,7 +69,7 @@ const PROJECTS = [
     description: "Story-driven blogging platform with editorial workflows, AI drafting assistance, and a hardened Django API for publishing at scale.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80",
     technologies: ["React", "Django", "PostgreSQL", "Tailwind"],
-    githubUrl: "https://github.com/adi-0903/MindMatrix",
+    githubUrl: "https://blogginwebsite-frontend.vercel.app",
   },
   {
     title: "Live Puzzle Game",
